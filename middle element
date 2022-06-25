@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head></head>
+<body>
+
+    <script>
+        let m=number(prompt("enter the value:" ,''));
+        let n=parseInt(math.log(n))+1;
+        let mid;
+        
+        if(n%2!=0){
+           mid=parseInt(m/math.pow(10,parseInt(n/2))%10);
+        }
+        else{
+           let p=parseInt(m/math.pow(10,parseInt(n/2-1)));
+           mid=parseInt(p%10)+parseInt(p/10%10);
+       }
+       
+    alert("the middle element is:"+mid);
+     
+  </script>
+
+</body>
