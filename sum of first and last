@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+   <script>
+
+        let n=prompt("enter a value:");
+        first=number(n[0]);
+        last=number(n%10);
+        alert(first+last);
+        
+</script>
+
+</body>
+</html>
+
+
